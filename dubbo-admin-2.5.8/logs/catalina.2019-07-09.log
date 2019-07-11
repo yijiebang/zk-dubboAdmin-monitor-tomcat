@@ -1,0 +1,47 @@
+09-Jul-2019 21:48:07.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+09-Jul-2019 21:48:07.408 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+09-Jul-2019 21:48:07.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+09-Jul-2019 21:48:07.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jul-2019 21:48:07.409 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk1.8\jre
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\conf\logging.properties
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jul-2019 21:48:07.410 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\temp
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+09-Jul-2019 21:48:07.411 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Jul-2019 21:48:07.412 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Jul-2019 21:48:07.908 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+09-Jul-2019 21:48:08.059 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+09-Jul-2019 21:48:08.189 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Jul-2019 21:48:08.194 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Jul-2019 21:48:08.195 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Jul-2019 21:48:08.195 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1144 ms
+09-Jul-2019 21:48:08.221 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jul-2019 21:48:08.221 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+09-Jul-2019 21:48:08.229 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs]
+09-Jul-2019 21:48:08.460 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs] has finished in [230] ms
+09-Jul-2019 21:48:08.460 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin]
+09-Jul-2019 21:48:10.769 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jul-2019 21:48:50.436 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin] has finished in [41,976] ms
+09-Jul-2019 21:48:50.436 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples]
+09-Jul-2019 21:48:50.627 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples] has finished in [191] ms
+09-Jul-2019 21:48:50.628 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager]
+09-Jul-2019 21:48:50.648 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager] has finished in [20] ms
+09-Jul-2019 21:48:50.648 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager]
+09-Jul-2019 21:48:50.664 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager] has finished in [16] ms
+09-Jul-2019 21:48:50.664 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT]
+09-Jul-2019 21:48:50.677 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT] has finished in [13] ms
+09-Jul-2019 21:48:50.682 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+09-Jul-2019 21:48:50.690 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Jul-2019 21:48:50.693 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 42496 ms
+09-Jul-2019 23:03:49.498 信息 [http-nio-8088-exec-2] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [.\.\.\.\.\.com.example.ticket.service.TicketService:1.0.0..../dubbo-admin/governance/applications/provider/services/com.example.ticket.service.TicketService:1.0.0/providers"; tmp0=eNpdUE1PwkAQDV9CNEa9ejLEk4Gm3dIWuCGUaAVEEAJedNudwuq2i7sFROPP8X%2B6oF6cw8xk5s17L3N1ECyFgDgZSRBNvRzwSMOM%2BtjHGln6PtcEzKhMxEZTq4jHGuERprG2xX8VlirHOILCAku55oJkBWeQDwTghIs8xNhnQLJbyD6BBRZJpLRyoChYbjHnMeSVWoLZyx7jAWZwrAhXNIC%2BoCvKYAZpSgp8AWLLd%2FTXNAgRIGU2olKe%2FL%2BQGUrkjwUghYgTGlIgmZivn5Q7nuhnYBgI%2BaFJalA1fOSEYc0xK6Zvo9CxzdBKDXr3O2hPRfp9nrpQtf16%2BoxXWFsmlGkNIfBGnu9KR71nh%2BgdDt3h8Pq299i9bbkdffJBSb3oDcbW1GnX%2BmWri5yJO7ixkNW6tEa64XWnqHzX9NzxeOKV9WIpSOqGZSO7qhsmcky7hIPfQcVGtYpZKUVvdf3z4RsbWJCF] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.

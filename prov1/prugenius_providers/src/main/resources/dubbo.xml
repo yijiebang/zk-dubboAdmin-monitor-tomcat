@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://dubbo.apache.org/schema/dubbo
+    http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+  <!-- 提供方应用信息，用于计算依赖关系 -->
+  <dubbo:application name="dubbo-b-server" />
+
+   <!-- 使用zookeeper注册中心暴露服务地址 -->
+  <dubbo:registry protocol="zookeeper" address="zookeeper://127.0.0.1:2181" />
+
+
+  <!-- 用dubbo协议在20880端口暴露服务 同一个服务发布多个，dubbo集群，20880,20881，20882-->
+  <dubbo:protocol name="dubbo" port="20881" />
+
+  <!-- 监控中心配置，protocol="registry"，表示从注册中心发现监控中心地址 -->
+  <dubbo:monitor protocol="registry"/>
+
+  <!-- 当ProtocolConfig和ServiceConfig某属性没有配置时,采用此缺省值 -->
+  <dubbo:provider timeout="30000" threadpool="fixed" threads="100" accepts="1000" />
+
+    <!-- 启动时不检查消费者 -->
+  <dubbo:consumer check="false" timeout="120000" retries="0" lazy="true"/>
+
+  <!-- 将该接口暴露到dubbo中 -->
+  <dubbo:service interface="com.dubbo.service.UserService"  ref="userServiceImpl" />
+  <!-- 将具体的实现类加入到Spring容器中 -->
+  <bean id="userServiceImpl" class="com.dubbo.service.impl.UserServiceImpl" />
+
+</beans>

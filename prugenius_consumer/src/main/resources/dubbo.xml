@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://dubbo.apache.org/schema/dubbo
+    http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 提供方应用信息，用于计算依赖关系 -->
+    <dubbo:application name="dubbo-consumer"/>
+
+    <dubbo:registry address="zookeeper://localhost:2181"/>
+
+    <!-- 监控中心配置，protocol="registry"，表示从注册中心发现监控中心地址 -->
+    <dubbo:monitor protocol="registry"/>
+    <!-- 声明需要暴露的服务接口 -->
+
+    <!--loadbalance="random"  随机，按权重设置随机概率。-->
+    <!--loadbalance="roundrobin"  轮循，按公约后权重设置轮循比率。-->
+    <!--loadbalance="LeastActive"  最少活跃调用数，相同活跃数的随机，活跃数指调用前后计数差。-->
+    <!-- 声明需要暴露的服务接口 -->
+    <dubbo:reference interface="com.dubbo.service.UserService"
+                     id="userService"
+                     loadbalance="random"
+    />
+
+</beans>

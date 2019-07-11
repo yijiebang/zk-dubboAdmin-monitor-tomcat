@@ -1,0 +1,92 @@
+04-Jul-2019 22:34:00.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+04-Jul-2019 22:34:00.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+04-Jul-2019 22:34:00.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+04-Jul-2019 22:34:00.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Jul-2019 22:34:00.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Jul-2019 22:34:00.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Jul-2019 22:34:00.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk1.8\jre
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\conf\logging.properties
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jul-2019 22:34:00.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 22:34:00.244 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 22:34:00.244 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\temp
+04-Jul-2019 22:34:00.244 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+04-Jul-2019 22:34:00.244 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-Jul-2019 22:34:00.244 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Jul-2019 22:34:00.676 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+04-Jul-2019 22:34:00.810 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+04-Jul-2019 22:34:00.892 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Jul-2019 22:34:00.897 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Jul-2019 22:34:00.898 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Jul-2019 22:34:00.898 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 924 ms
+04-Jul-2019 22:34:00.921 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jul-2019 22:34:00.921 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+04-Jul-2019 22:34:00.928 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs]
+04-Jul-2019 22:34:01.148 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs] has finished in [219] ms
+04-Jul-2019 22:34:01.148 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin]
+04-Jul-2019 22:34:03.479 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jul-2019 22:34:13.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin] has finished in [12,181] ms
+04-Jul-2019 22:34:13.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples]
+04-Jul-2019 22:34:13.524 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples] has finished in [195] ms
+04-Jul-2019 22:34:13.525 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager]
+04-Jul-2019 22:34:13.530 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager] has finished in [5] ms
+04-Jul-2019 22:34:13.530 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager]
+04-Jul-2019 22:34:13.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager] has finished in [29] ms
+04-Jul-2019 22:34:13.559 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT]
+04-Jul-2019 22:34:13.571 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT] has finished in [12] ms
+04-Jul-2019 22:34:13.574 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+04-Jul-2019 22:34:13.579 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Jul-2019 22:34:13.579 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 12682 ms
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.31
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 20:24:25 UTC
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.31.0
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             E:\jdk1.8\jre
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\conf\logging.properties
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\temp
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-Jul-2019 23:06:07.228 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Jul-2019 23:06:07.681 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+04-Jul-2019 23:06:07.743 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8088"]
+04-Jul-2019 23:06:07.821 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Jul-2019 23:06:07.821 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Jul-2019 23:06:07.837 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Jul-2019 23:06:07.837 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 809 ms
+04-Jul-2019 23:06:07.852 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jul-2019 23:06:07.852 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.31
+04-Jul-2019 23:06:07.852 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs]
+04-Jul-2019 23:06:08.014 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\docs] has finished in [162] ms
+04-Jul-2019 23:06:08.014 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin]
+04-Jul-2019 23:06:09.975 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-Jul-2019 23:06:19.745 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\dubbo-admin] has finished in [11,731] ms
+04-Jul-2019 23:06:19.745 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples]
+04-Jul-2019 23:06:19.901 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\examples] has finished in [156] ms
+04-Jul-2019 23:06:19.901 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager]
+04-Jul-2019 23:06:19.932 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\host-manager] has finished in [31] ms
+04-Jul-2019 23:06:19.932 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager]
+04-Jul-2019 23:06:19.948 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\manager] has finished in [16] ms
+04-Jul-2019 23:06:19.948 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT]
+04-Jul-2019 23:06:19.948 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\dubbo-zk-tomcat\apache-tomcat-8.5.31\webapps\ROOT] has finished in [0] ms
+04-Jul-2019 23:06:19.963 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8088"]
+04-Jul-2019 23:06:19.963 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Jul-2019 23:06:19.963 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 12135 ms
